@@ -66,6 +66,16 @@ end
 - **Automatic cleanup**: Handles can be released when no longer needed
 - **Flexible composition strategies**: Boolean, numeric, or custom composition logic
 
+## Installation
+
+Whether you're using Git or some other method, please download the contents of the `release` branch and place them in the appropriate folder under the `resources` directory.
+
+```sh
+git clone --depth 1 --branch release https://github.com/af3m/hstate.git "resources/[af3m]/hstate"
+```
+
+For LuaLS type settings, please download the contents of the `types` branch and move them to the directory under `workspace.library` in the `.luarc.json` file.
+
 ## Why you must use it
 
 Currently, in **FiveM**, there isn't a standardized way to manage conflicts when multiple scripts control the same entity. This gap creates a lot of room for unpredictable behavior and hard-to-debug issues, especially as servers grow and more scripts interact with the same entities.
